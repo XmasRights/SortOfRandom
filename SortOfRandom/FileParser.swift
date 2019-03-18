@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  FileParser.swift
 //  SortOfRandom
 //
 //  Created by Christopher Fonseka on 18/03/2019.
@@ -7,10 +7,3 @@
 //
 
 import Foundation
-
-do {
-    print(try CommandLineParser.inputFileContents())
-} catch {
-    print(error)
-}
-
