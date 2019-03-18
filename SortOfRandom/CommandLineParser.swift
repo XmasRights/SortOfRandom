@@ -22,10 +22,3 @@ struct CommandLineParser {
         return try String(contentsOf: url)
     }
 }
-
-private extension Collection {
-    
-    var second: Element? {
-        return self.dropFirst().first
-    }
-}

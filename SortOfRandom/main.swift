@@ -9,7 +9,11 @@
 import Foundation
 
 do {
-    print(try CommandLineParser.inputFileContents())
+    let fileContents = try CommandLineParser.inputFileContents()
+    let database = try Database(fileContents: fileContents)
+    
+    database.store.forEach { print($0) }
+    
 } catch {
     print(error)
 }
