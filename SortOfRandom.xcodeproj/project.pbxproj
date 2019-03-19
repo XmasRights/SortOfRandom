@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7D1F8D22412D9B001CA83A /* Collection.Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D1F8C22412D9B001CA83A /* Collection.Pairs.swift */; };
 		4BFFD56A223FD86F003F2C16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD569223FD86F003F2C16 /* main.swift */; };
 		4BFFD575223FD990003F2C16 /* CommandLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD574223FD990003F2C16 /* CommandLineParser.swift */; };
 		4BFFD577223FDBAC003F2C16 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD576223FDBAC003F2C16 /* Database.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B7D1F8C22412D9B001CA83A /* Collection.Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.Pairs.swift; sourceTree = "<group>"; };
 		4BFFD566223FD86F003F2C16 /* SortOfRandom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortOfRandom; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFFD569223FD86F003F2C16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4BFFD574223FD990003F2C16 /* CommandLineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineParser.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				4BFFD57B223FDD84003F2C16 /* Collection.Second.swift */,
+				4B7D1F8C22412D9B001CA83A /* Collection.Pairs.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7D1F8D22412D9B001CA83A /* Collection.Pairs.swift in Sources */,
 				4BFFD57C223FDD84003F2C16 /* Collection.Second.swift in Sources */,
 				4BFFD57A223FDBEE003F2C16 /* PlayHistory.swift in Sources */,
 				4BFFD56A223FD86F003F2C16 /* main.swift in Sources */,
