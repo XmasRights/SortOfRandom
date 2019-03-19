@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4BFFD56A223FD86F003F2C16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD569223FD86F003F2C16 /* main.swift */; };
-		4BFFD573223FD8CF003F2C16 /* FileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD572223FD8CF003F2C16 /* FileParser.swift */; };
 		4BFFD575223FD990003F2C16 /* CommandLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD574223FD990003F2C16 /* CommandLineParser.swift */; };
 		4BFFD577223FDBAC003F2C16 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD576223FDBAC003F2C16 /* Database.swift */; };
 		4BFFD57A223FDBEE003F2C16 /* PlayHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD579223FDBEE003F2C16 /* PlayHistory.swift */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		4BFFD566223FD86F003F2C16 /* SortOfRandom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortOfRandom; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFFD569223FD86F003F2C16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4BFFD572223FD8CF003F2C16 /* FileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileParser.swift; sourceTree = "<group>"; };
 		4BFFD574223FD990003F2C16 /* CommandLineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineParser.swift; sourceTree = "<group>"; };
 		4BFFD576223FDBAC003F2C16 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		4BFFD579223FDBEE003F2C16 /* PlayHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHistory.swift; sourceTree = "<group>"; };
@@ -48,6 +46,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B7D1F8A22412C89001CA83A /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFD574223FD990003F2C16 /* CommandLineParser.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		4B7D1F8B22412C95001CA83A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BFFD57B223FDD84003F2C16 /* Collection.Second.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4BFFD55D223FD86F003F2C16 = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +81,10 @@
 		4BFFD568223FD86F003F2C16 /* SortOfRandom */ = {
 			isa = PBXGroup;
 			children = (
+				4B7D1F8B22412C95001CA83A /* Extensions */,
+				4B7D1F8A22412C89001CA83A /* Input */,
 				4BFFD578223FDBDD003F2C16 /* PlayHistory */,
 				4BFFD569223FD86F003F2C16 /* main.swift */,
-				4BFFD572223FD8CF003F2C16 /* FileParser.swift */,
-				4BFFD574223FD990003F2C16 /* CommandLineParser.swift */,
-				4BFFD57B223FDD84003F2C16 /* Collection.Second.swift */,
 			);
 			path = SortOfRandom;
 			sourceTree = "<group>";
@@ -144,7 +157,6 @@
 			files = (
 				4BFFD57C223FDD84003F2C16 /* Collection.Second.swift in Sources */,
 				4BFFD57A223FDBEE003F2C16 /* PlayHistory.swift in Sources */,
-				4BFFD573223FD8CF003F2C16 /* FileParser.swift in Sources */,
 				4BFFD56A223FD86F003F2C16 /* main.swift in Sources */,
 				4BFFD577223FDBAC003F2C16 /* Database.swift in Sources */,
 				4BFFD575223FD990003F2C16 /* CommandLineParser.swift in Sources */,
