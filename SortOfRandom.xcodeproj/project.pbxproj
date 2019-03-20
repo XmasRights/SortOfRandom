@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B7D1F8D22412D9B001CA83A /* Collection.Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D1F8C22412D9B001CA83A /* Collection.Pairs.swift */; };
-		4BFFD56A223FD86F003F2C16 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD569223FD86F003F2C16 /* main.swift */; };
-		4BFFD575223FD990003F2C16 /* CommandLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD574223FD990003F2C16 /* CommandLineParser.swift */; };
-		4BFFD577223FDBAC003F2C16 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD576223FDBAC003F2C16 /* Database.swift */; };
-		4BFFD57A223FDBEE003F2C16 /* PlayHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD579223FDBEE003F2C16 /* PlayHistory.swift */; };
-		4BFFD57C223FDD84003F2C16 /* Collection.Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFFD57B223FDD84003F2C16 /* Collection.Second.swift */; };
+		4B3E08AF22427D260085E700 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E08AE22427D260085E700 /* main.swift */; };
+		4BF1A4CF22427D7D00EF30CC /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1A4C822427D7D00EF30CC /* Database.swift */; };
+		4BF1A4D022427D7D00EF30CC /* PlayHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1A4C922427D7D00EF30CC /* PlayHistory.swift */; };
+		4BF1A4D122427D7D00EF30CC /* Collection.Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1A4CB22427D7D00EF30CC /* Collection.Pairs.swift */; };
+		4BF1A4D222427D7D00EF30CC /* Collection.Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1A4CC22427D7D00EF30CC /* Collection.Second.swift */; };
+		4BF1A4D322427D7D00EF30CC /* CommandLineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1A4CE22427D7D00EF30CC /* CommandLineParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4BFFD564223FD86F003F2C16 /* CopyFiles */ = {
+		4B3E08A922427D260085E700 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,17 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4B7D1F8C22412D9B001CA83A /* Collection.Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.Pairs.swift; sourceTree = "<group>"; };
-		4BFFD566223FD86F003F2C16 /* SortOfRandom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortOfRandom; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BFFD569223FD86F003F2C16 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4BFFD574223FD990003F2C16 /* CommandLineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineParser.swift; sourceTree = "<group>"; };
-		4BFFD576223FDBAC003F2C16 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		4BFFD579223FDBEE003F2C16 /* PlayHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayHistory.swift; sourceTree = "<group>"; };
-		4BFFD57B223FDD84003F2C16 /* Collection.Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.Second.swift; sourceTree = "<group>"; };
+		4B3E08AB22427D260085E700 /* SortOfRandom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortOfRandom; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3E08AE22427D260085E700 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4BF1A4C822427D7D00EF30CC /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		4BF1A4C922427D7D00EF30CC /* PlayHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayHistory.swift; sourceTree = "<group>"; };
+		4BF1A4CB22427D7D00EF30CC /* Collection.Pairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.Pairs.swift; sourceTree = "<group>"; };
+		4BF1A4CC22427D7D00EF30CC /* Collection.Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.Second.swift; sourceTree = "<group>"; };
+		4BF1A4CE22427D7D00EF30CC /* CommandLineParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLineParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4BFFD563223FD86F003F2C16 /* Frameworks */ = {
+		4B3E08A822427D260085E700 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,69 +48,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B7D1F8A22412C89001CA83A /* Input */ = {
+		4B3E08A222427D250085E700 = {
 			isa = PBXGroup;
 			children = (
-				4BFFD574223FD990003F2C16 /* CommandLineParser.swift */,
-			);
-			path = Input;
-			sourceTree = "<group>";
-		};
-		4B7D1F8B22412C95001CA83A /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4BFFD57B223FDD84003F2C16 /* Collection.Second.swift */,
-				4B7D1F8C22412D9B001CA83A /* Collection.Pairs.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		4BFFD55D223FD86F003F2C16 = {
-			isa = PBXGroup;
-			children = (
-				4BFFD568223FD86F003F2C16 /* SortOfRandom */,
-				4BFFD567223FD86F003F2C16 /* Products */,
+				4B3E08AD22427D260085E700 /* SortOfRandom */,
+				4B3E08AC22427D260085E700 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4BFFD567223FD86F003F2C16 /* Products */ = {
+		4B3E08AC22427D260085E700 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BFFD566223FD86F003F2C16 /* SortOfRandom */,
+				4B3E08AB22427D260085E700 /* SortOfRandom */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4BFFD568223FD86F003F2C16 /* SortOfRandom */ = {
+		4B3E08AD22427D260085E700 /* SortOfRandom */ = {
 			isa = PBXGroup;
 			children = (
-				4B7D1F8B22412C95001CA83A /* Extensions */,
-				4B7D1F8A22412C89001CA83A /* Input */,
-				4BFFD578223FDBDD003F2C16 /* PlayHistory */,
-				4BFFD569223FD86F003F2C16 /* main.swift */,
+				4BF1A4CA22427D7D00EF30CC /* Extensions */,
+				4BF1A4CD22427D7D00EF30CC /* Input */,
+				4BF1A4C722427D7D00EF30CC /* PlayHistory */,
+				4B3E08AE22427D260085E700 /* main.swift */,
 			);
 			path = SortOfRandom;
 			sourceTree = "<group>";
 		};
-		4BFFD578223FDBDD003F2C16 /* PlayHistory */ = {
+		4BF1A4C722427D7D00EF30CC /* PlayHistory */ = {
 			isa = PBXGroup;
 			children = (
-				4BFFD576223FDBAC003F2C16 /* Database.swift */,
-				4BFFD579223FDBEE003F2C16 /* PlayHistory.swift */,
+				4BF1A4C822427D7D00EF30CC /* Database.swift */,
+				4BF1A4C922427D7D00EF30CC /* PlayHistory.swift */,
 			);
 			path = PlayHistory;
+			sourceTree = "<group>";
+		};
+		4BF1A4CA22427D7D00EF30CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BF1A4CB22427D7D00EF30CC /* Collection.Pairs.swift */,
+				4BF1A4CC22427D7D00EF30CC /* Collection.Second.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4BF1A4CD22427D7D00EF30CC /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				4BF1A4CE22427D7D00EF30CC /* CommandLineParser.swift */,
+			);
+			path = Input;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BFFD565223FD86F003F2C16 /* SortOfRandom */ = {
+		4B3E08AA22427D260085E700 /* SortOfRandom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BFFD56D223FD86F003F2C16 /* Build configuration list for PBXNativeTarget "SortOfRandom" */;
+			buildConfigurationList = 4B3E08B222427D260085E700 /* Build configuration list for PBXNativeTarget "SortOfRandom" */;
 			buildPhases = (
-				4BFFD562223FD86F003F2C16 /* Sources */,
-				4BFFD563223FD86F003F2C16 /* Frameworks */,
-				4BFFD564223FD86F003F2C16 /* CopyFiles */,
+				4B3E08A722427D260085E700 /* Sources */,
+				4B3E08A822427D260085E700 /* Frameworks */,
+				4B3E08A922427D260085E700 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -118,59 +118,59 @@
 			);
 			name = SortOfRandom;
 			productName = SortOfRandom;
-			productReference = 4BFFD566223FD86F003F2C16 /* SortOfRandom */;
+			productReference = 4B3E08AB22427D260085E700 /* SortOfRandom */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4BFFD55E223FD86F003F2C16 /* Project object */ = {
+		4B3E08A322427D250085E700 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Christopher Fonseka";
 				TargetAttributes = {
-					4BFFD565223FD86F003F2C16 = {
+					4B3E08AA22427D260085E700 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 4BFFD561223FD86F003F2C16 /* Build configuration list for PBXProject "SortOfRandom" */;
+			buildConfigurationList = 4B3E08A622427D250085E700 /* Build configuration list for PBXProject "SortOfRandom" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4BFFD55D223FD86F003F2C16;
-			productRefGroup = 4BFFD567223FD86F003F2C16 /* Products */;
+			mainGroup = 4B3E08A222427D250085E700;
+			productRefGroup = 4B3E08AC22427D260085E700 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BFFD565223FD86F003F2C16 /* SortOfRandom */,
+				4B3E08AA22427D260085E700 /* SortOfRandom */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BFFD562223FD86F003F2C16 /* Sources */ = {
+		4B3E08A722427D260085E700 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7D1F8D22412D9B001CA83A /* Collection.Pairs.swift in Sources */,
-				4BFFD57C223FDD84003F2C16 /* Collection.Second.swift in Sources */,
-				4BFFD57A223FDBEE003F2C16 /* PlayHistory.swift in Sources */,
-				4BFFD56A223FD86F003F2C16 /* main.swift in Sources */,
-				4BFFD577223FDBAC003F2C16 /* Database.swift in Sources */,
-				4BFFD575223FD990003F2C16 /* CommandLineParser.swift in Sources */,
+				4BF1A4CF22427D7D00EF30CC /* Database.swift in Sources */,
+				4B3E08AF22427D260085E700 /* main.swift in Sources */,
+				4BF1A4D322427D7D00EF30CC /* CommandLineParser.swift in Sources */,
+				4BF1A4D122427D7D00EF30CC /* Collection.Pairs.swift in Sources */,
+				4BF1A4D022427D7D00EF30CC /* PlayHistory.swift in Sources */,
+				4BF1A4D222427D7D00EF30CC /* Collection.Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4BFFD56B223FD86F003F2C16 /* Debug */ = {
+		4B3E08B022427D260085E700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		4BFFD56C223FD86F003F2C16 /* Release */ = {
+		4B3E08B122427D260085E700 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +285,7 @@
 			};
 			name = Release;
 		};
-		4BFFD56E223FD86F003F2C16 /* Debug */ = {
+		4B3E08B322427D260085E700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -295,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		4BFFD56F223FD86F003F2C16 /* Release */ = {
+		4B3E08B422427D260085E700 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -308,25 +308,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BFFD561223FD86F003F2C16 /* Build configuration list for PBXProject "SortOfRandom" */ = {
+		4B3E08A622427D250085E700 /* Build configuration list for PBXProject "SortOfRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BFFD56B223FD86F003F2C16 /* Debug */,
-				4BFFD56C223FD86F003F2C16 /* Release */,
+				4B3E08B022427D260085E700 /* Debug */,
+				4B3E08B122427D260085E700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BFFD56D223FD86F003F2C16 /* Build configuration list for PBXNativeTarget "SortOfRandom" */ = {
+		4B3E08B222427D260085E700 /* Build configuration list for PBXNativeTarget "SortOfRandom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BFFD56E223FD86F003F2C16 /* Debug */,
-				4BFFD56F223FD86F003F2C16 /* Release */,
+				4B3E08B322427D260085E700 /* Debug */,
+				4B3E08B422427D260085E700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4BFFD55E223FD86F003F2C16 /* Project object */;
+	rootObject = 4B3E08A322427D250085E700 /* Project object */;
 }
